@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    /* font-weight: 900; */
+}
+.container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    width: 100vw;
+    align-items: center;
+    
+
+}
+
+ span{
+    
+    display: inline-block;
+    font-size:1.2rem;
+
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+#nav-center-links{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 440px;
+}
+
+#nav-right-links{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+}
+
+#nav-center-links a{
+    display: inline-block;
+    align-items: center;
+    width: 140px;
+}
+
+#profile{
+    border-collapse: collapse;
+    width: 68px;
+    display: flex;
+    height: 27px;
+    background-color: peru;
+    border-radius: 12px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#search-container{
+    background: black;
+    height: 12vh;
+}
+
+#search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 67%;
+    margin-left: 20%;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+}
+#search>div{
+border-right: 1px solid black;
+width: 18vw;
+}
+
+#span-search-icon{
+    display: flex;
+    
+}
+
+#search-icon{
+    width: 27px;
+    height: 18px;
+    margin-top: 5px;
+    padding: 6px;
+    border-radius: 20px;
+    /* vertical-align: -5px; */
+    /* margin-right: -95px; */
+    background-color: deeppink;
+    margin-left: 45px;
+}
